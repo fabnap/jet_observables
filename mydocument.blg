@@ -2,6 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mydocument.aux
 The style file: biblatex.bst
+A level-1 auxiliary file: sascha_input/ECF.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -24,7 +25,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 1 entry,
             6256 wiz_defined-function locations,
-            1177 strings with 8556 characters,
+            1178 strings with 8576 characters,
 and the built_in function-call counts, 1203 in all, are:
 = -- 58
 > -- 52
