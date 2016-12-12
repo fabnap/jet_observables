@@ -31,6 +31,7 @@
 
 %-------------------------------------------------------------------------------
 % Extra packages:
+% \usepackage{\ATLASLATEXPATH atlaspackage}
 \usepackage[subcaption]{\ATLASLATEXPATH atlaspackage}
 \usepackage{overpic}	
 
@@ -240,12 +241,16 @@ with $m_{\tilde{W}}=m_t$ & & & & \\
 
 This section gives an overview of the objects used for the subjet-assisted variables, which are the large-radius jet mass, the Energy Correlation Functions and the n-Subjettiness, as they are used within ATLAS, the next section will give the details of the modified approach of the subjet-assisted techniques.
 
+
 \input{fab1.tex}
 
 
 \subsection{Energy Correlation Functions}
+\input{sascha_input/ECF}
 
 \subsection{n-Subjettiness}
+\input{sascha_input/nSub}
+
 
 %-------------------------------------------------------------------------------
 \section{Track-assisted subjet mass}
@@ -540,14 +545,14 @@ isbn: 0387985026.
 \addcontentsline{toc}{part}{Auxiliary material}
 %-------------------------------------------------------------------------------
 
-% In an ATLAS paper, auxiliary plots and tables that are supposed to be made public 
-% should be collected in an appendix that has the title \enquote{Auxiliary material}.
-% This appendix should be printed after the Bibliography.
-% At the end of the paper approval procedure, this information can be split into a separate document
-% -- see \texttt{atlas-auxmat.tex}.
+In an ATLAS paper, auxiliary plots and tables that are supposed to be made public 
+should be collected in an appendix that has the title \enquote{Auxiliary material}.
+This appendix should be printed after the Bibliography.
+At the end of the paper approval procedure, this information can be split into a separate document
+-- see \texttt{atlas-auxmat.tex}.
 
-% In an ATLAS note, use the appendices to include all the technical details of your work
-% that are relevant for the ATLAS Collaboration only (e.g.\ dataset details, software release used).
-% This information should be printed after the Bibliography.
+In an ATLAS note, use the appendices to include all the technical details of your work
+that are relevant for the ATLAS Collaboration only (e.g.\ dataset details, software release used).
+This information should be printed after the Bibliography.
 
 \end{document}
