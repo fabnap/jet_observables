@@ -1,0 +1,16 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {UKenglish}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}ATLAS detector}{2}{section.2}
+\contentsline {section}{\numberline {3}Monte Carlo Samples}{3}{section.3}
+\contentsline {section}{\numberline {4}Object Definition}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Large-radius jet mass definitions}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Energy Correlation Functions}{4}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}n-Subjettiness}{5}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}N-Subjettiness}{5}{subsection.4.4}
+\contentsline {section}{\numberline {5}Track-assisted subjet mass}{6}{section.5}
+\contentsline {section}{\numberline {6}Energy Correlation Functions and n-Subjettiness}{6}{section.6}
+\contentsline {section}{\numberline {7}Conclusions}{6}{section.7}
+\contentsline {part}{Appendix}{7}{part*.4}
+\contentsline {part}{Auxiliary material}{9}{part*.7}
