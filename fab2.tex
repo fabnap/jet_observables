@@ -1,5 +1,5 @@
 
-\subsection{Track-Assisted Mass ($\mta$)}
+\subsection{Track-Assisted Mass ($\mta$)}\label{subsec:mta}
 The main limitation of the calorimeter mass comes from the angular resolution of the topo-clusters, which, for extreme kinematic regimes, start approaching each other at the point that they hit the granularity of the detector. The main advantage is that on the contrary the relative energy resolution increases at higher energies.
 
 The tracks instead have a very good angular resolution, but $\pt$ relative resolution degrades linearly with the transverse momentum. 
@@ -88,7 +88,7 @@ For boosted Higgs the $\mcal$ outperforms the $\mta$ in the spectrum of transver
 
 
 
-\subsection{The Track-Assisted Sub-jet Mass ($\mtas$)}
+\subsection{The Track-Assisted Sub-jet Mass ($\mtas$)}\label{subsec:mtas}
 In this section the main outcome of the work of this thesis is presented: the \textit{track-assisted sub-jet mass} ($\mtas$).
 The main idea takes inspiration from the track-assisted mass: if one can use the tracks to exploit the better angular resolution and correct the missing neutral component jet-by-jet, there is an additional information that can be used. The neutral fraction, in fact, varies stochastically not only per-jet basis, but even per-sub-jet basis, since each sub-jet is originated from a different quark.
 Correcting the missed neutral component per-sub-jet, it should perform better already at an intuitive level, as it accesses information from the jet substructure.
@@ -130,7 +130,7 @@ The standard version of the trimming uses the k$_t$ reclustering algorithm with 
 
 As shown later, this is also the optimal configuration for sub-jets.
 
-\subsection{Observable Definition: Procedure}
+\subsection{Observable Definition: Procedure}\label{subsec:ObsDef_Proc}
 Having tracks and sub-jets now well defined, we can describe the recipe to produce the $\mtas$. For brevity we will call the sub-jets SJ in the formulae below. 
 
 As said, the tracks are the one ghost-associated to the sub-jets; however, tracks which fall inside the area of the large-$R$ jet, but not inside the sub-jets area, are still much probably coming from the hard-scattering. They are then associated again to the closest sub-jets via $\Delta R$ association.

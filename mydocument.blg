@@ -2,7 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mydocument.aux
 The style file: biblatex.bst
-A level-1 auxiliary file: sascha_input/ECF.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -20,25 +19,22 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: mydocument-blx.bib
 Database file #2: mydocument.bib
 Database file #3: bibtex/bib/ATLAS.bib
+Warning--I didn't find a database entry for "antiktalgo"
+Warning--I didn't find a database entry for "substructure1"
+Warning--I didn't find a database entry for "art35"
 Warning--I didn't find a database entry for "bib:ECF"
 Warning--I didn't find a database entry for "bib:power_counting"
 Warning--I didn't find a database entry for "bib:analytic_ECF"
 Warning--I didn't find a database entry for "bib:w_tagging"
 Warning--I didn't find a database entry for "bib:nsub"
+Warning--I didn't find a database entry for "art39"
+Warning--I didn't find a database entry for "statistic"
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 1 entry,
             6256 wiz_defined-function locations,
-<<<<<<< HEAD
-<<<<<<< HEAD
-            1178 strings with 8576 characters,
-=======
-            1182 strings with 8598 characters,
->>>>>>> fabrizio
-=======
-            1184 strings with 8641 characters,
->>>>>>> fabrizio
+            1189 strings with 8683 characters,
 and the built_in function-call counts, 1203 in all, are:
 = -- 58
 > -- 52
@@ -77,4 +73,4 @@ warning$ -- 0
 while$ -- 45
 width$ -- 0
 write$ -- 20
-(There were 5 warnings)
+(There were 10 warnings)
