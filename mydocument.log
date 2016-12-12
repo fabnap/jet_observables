@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.30)  5 DEC 2016 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.30)  12 DEC 2016 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1743,7 +1743,7 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 )))
-(./mydocument.aux (./sascha_input/ECF.aux))
+(./mydocument.aux)
 \openout1 = `mydocument.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 78.
@@ -2074,29 +2074,52 @@ e 173.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 174.
-[3] [4]
-\openout2 = `sascha_input/ECF.aux'.
+[3] (./sascha_input/ECF.tex
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 3.
 
- (./sascha_input/ECF.tex) [5
 
-] [6
+LaTeX Warning: Citation 'bib:ECF' on page 4 undefined on input line 3.
 
-]
+
+Overfull \hbox (5.64624pt too wide) in paragraph at lines 3--4
+[]\T1/ntxtlf/m/n/10.95 The \T1/ntxtlf/m/sc/10.95 En-ergy Cor-rel-a-tion Func-ti
+ons \T1/ntxtlf/m/n/10.95 ECF(N,$\OML/ntxmi/m/it/10.95 ^^L$\T1/ntxtlf/m/n/10.95 
+) or N-point cor-rel-at-ors, de-scribed in Ref-er-ence [[]],
+ []
+
+
+LaTeX Warning: Citation 'bib:power_counting' on page 4 undefined on input line 
+15.
+
+[4]
+
+LaTeX Warning: Citation 'bib:analytic_ECF' on page 5 undefined on input line 23
+.
+
+
+LaTeX Warning: Citation 'bib:w_tagging' on page 5 undefined on input line 23.
+
+) (./sascha_input/nSub.tex
+
+LaTeX Warning: Citation 'bib:nsub' on page 5 undefined on input line 3.
+
+[5]) [6]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 238.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 239.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 238.
+(Font)              scaled to size 24.88pt on input line 239.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 238.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 239.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 238.
+(Font)              scaled to size 17.28pt on input line 239.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 238.
+(Font)              scaled to size 17.28pt on input line 239.
 
 
-LaTeX Warning: Empty bibliography on input line 249.
+LaTeX Warning: Empty bibliography on input line 250.
 
 [7
 
@@ -2106,54 +2129,72 @@ LaTeX Warning: Empty bibliography on input line 249.
  [8
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
  [9
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
- (./mydocument.aux (./sascha_input/ECF.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
-Package rerunfilecheck Info: File `mydocument.out' has not changed.
-(rerunfilecheck)             Checksum: 449316913E7AFF5D6AF8112BE6674A90;708.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
+ (./mydocument.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 
+
+Package rerunfilecheck Warning: File `mydocument.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `mydocument.out':
+(rerunfilecheck)             Before: 449316913E7AFF5D6AF8112BE6674A90;708
+(rerunfilecheck)             After:  3C06DB1CEA8D5E88C9370DE3D8BC7647;772.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                mydocument
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'mydocument.run.xml'.
 \openout1 = `mydocument.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 30143 strings out of 493014
- 547319 string characters out of 6133350
- 987948 words of memory out of 5000000
- 33227 multiletter control sequences out of 15000+600000
- 169803 words of font info for 207 fonts, out of 8000000 for 9000
+ 30319 strings out of 493014
+ 550303 string characters out of 6133350
+ 989948 words of memory out of 5000000
+ 33381 multiletter control sequences out of 15000+600000
+ 197928 words of font info for 253 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,15n,114p,10409b,1566s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2
-016/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2016/t
-exmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2016/texmf-d
-ist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/tex-gyre/qhvr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/tex-gyre/qtmb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-
-gyre/qtmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/q
-tmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi5.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/urw/times/utmri8a.pfb>
-Output written on mydocument.pdf (9 pages, 251661 bytes).
+ 76i,16n,114p,10409b,1566s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}{
+/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texl
+ive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2016
+/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2016/texm
+f-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2016/texmf-dist
+/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/tex-gyre/qhvr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/t
+ex-gyre/qtmb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyr
+e/qtmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmr
+i.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi5.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/txfonts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on mydocument.pdf (9 pages, 275573 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 218 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  107 words of extra memory for PDF output out of 10000 (max. 10000000)
 
