@@ -47,15 +47,20 @@
 \BOOKMARK [2][-]{subsection.7.1}{Sub-jet track assistance}{section.7}% 47
 \BOOKMARK [3][-]{subsubsection.7.1.1}{Event weighting and Mass-Cut}{subsection.7.1}% 48
 \BOOKMARK [2][-]{subsection.7.2}{Track Selection}{section.7}% 49
-\BOOKMARK [1][-]{section.8}{Conclusions \046 Outlook}{}% 50
-\BOOKMARK [2][-]{subsection.8.1}{Jet mass observables}{section.8}% 51
-\BOOKMARK [3][-]{subsubsection.8.1.1}{Outlook}{subsection.8.1}% 52
-\BOOKMARK [2][-]{subsection.8.2}{Energy Correlation Functions and n-Subjettiness}{section.8}% 53
-\BOOKMARK [0][-]{part*.35}{Appendix}{}% 54
-\BOOKMARK [1][-]{appendix.A}{mTAS distributions, boosted W/Z}{part*.35}% 55
-\BOOKMARK [1][-]{appendix.B}{mTAS distributions, boosted tops}{part*.35}% 56
-\BOOKMARK [1][-]{appendix.C}{mTAS distributions, boosted higgs}{part*.35}% 57
-\BOOKMARK [1][-]{appendix.D}{mcombTAS response distributions, boosted W/Z}{part*.35}% 58
-\BOOKMARK [1][-]{appendix.E}{mcombTAS response distributions, boosted tops}{part*.35}% 59
-\BOOKMARK [1][-]{appendix.F}{mcombTAS response distributions, Higgs}{part*.35}% 60
-\BOOKMARK [0][-]{part*.273}{Auxiliary material}{}% 61
+\BOOKMARK [2][-]{subsection.7.3}{Performance with default }{section.7}% 50
+\BOOKMARK [3][-]{subsubsection.7.3.1}{Performance for W boson tagging}{subsection.7.3}% 51
+\BOOKMARK [3][-]{subsubsection.7.3.2}{Un-assisted tracks and TAS at very high pT}{subsection.7.3}% 52
+\BOOKMARK [3][-]{subsubsection.7.3.3}{Correlation with pT}{subsection.7.3}% 53
+\BOOKMARK [2][-]{subsection.7.4}{Optimisation of }{section.7}% 54
+\BOOKMARK [1][-]{section.8}{Conclusions \046 Outlook}{}% 55
+\BOOKMARK [2][-]{subsection.8.1}{Jet mass observables}{section.8}% 56
+\BOOKMARK [3][-]{subsubsection.8.1.1}{Outlook}{subsection.8.1}% 57
+\BOOKMARK [2][-]{subsection.8.2}{Energy Correlation Functions and n-Subjettiness}{section.8}% 58
+\BOOKMARK [0][-]{part*.42}{Appendix}{}% 59
+\BOOKMARK [1][-]{appendix.A}{mTAS distributions, boosted W/Z}{part*.42}% 60
+\BOOKMARK [1][-]{appendix.B}{mTAS distributions, boosted tops}{part*.42}% 61
+\BOOKMARK [1][-]{appendix.C}{mTAS distributions, boosted higgs}{part*.42}% 62
+\BOOKMARK [1][-]{appendix.D}{mcombTAS response distributions, boosted W/Z}{part*.42}% 63
+\BOOKMARK [1][-]{appendix.E}{mcombTAS response distributions, boosted tops}{part*.42}% 64
+\BOOKMARK [1][-]{appendix.F}{mcombTAS response distributions, Higgs}{part*.42}% 65
+\BOOKMARK [0][-]{part*.280}{Auxiliary material}{}% 66
