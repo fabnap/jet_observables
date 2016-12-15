@@ -68,7 +68,33 @@ In the cases of D2, Figure \ref{fig:correlation_D2}, and $\tau_{21}$, Figure \re
 \caption{\footnotesize{Correlation between $\tau_{21}$ at $\beta=1$ and $p_{\mathrm{T}}$ applied on $W$ boson signal (above) and QCD background (below) for calorimeter (left) and TAS (right).}}\label{fig:correlation_tau21}
 \end{figure}
 
+\subsubsection{Performance for Higgs boson tagging}\label{subsubsec:higgs_beta1}
+The Higgs boson is heavier than the $W$ or $Z$ boson, resulting in a higher angular separation of the jet constituents considering the rule of thumb $\delta R \sim \frac{2m}{p_T}$ for decay products. As a result, angular resolution effects won't have the same impact as for the $W$ boson. This can be verified by the performance of track-based variables in the ROCs found in Figure \ref{fig:ROC_higgs_nSub21}.
 
+For Higgs boson tagging and an angular weight of $\beta=1$, found were no distinct improvements with TAS or tracks compared to calorimeter clusters. The C2 variable performs better with calorimeter clusters, D2 yields an equal QCD discrimination with TAS and calorimeter clusters. The n-Subjettiness ratio $\tau_{21}$ benefits from TAS in some $p_{\mathrm{T}}$ regions, while the calorimeter pendant performs better in the other regions. Furthermore, tracks and TAS perform comparable over the whole studied $p_{\mathrm{T}}$ range. 
+\begin{figure}[htp]
+\includegraphics[width=0.3\textwidth]{sascha_input/plots/Higgs/ROC/Beta1/ROC_ALL_h_recoJet_C2_bin2.pdf} 
+\includegraphics[width=0.3\textwidth]{sascha_input/plots/Higgs/ROC/Beta1/ROC_ALL_h_recoJet_D2_bin2.pdf} 
+\includegraphics[width=0.3\textwidth]{sascha_input/plots/Higgs/ROC/Beta1/ROC_ALL_h_recoJet_nSub21_bin2.pdf}
+\bigskip
+\includegraphics[width=0.3\textwidth]{sascha_input/plots/Higgs/ROC/Beta1/ROC_ALL_h_recoJet_C2_bin5.pdf} \hspace{6mm}
+\includegraphics[width=0.3\textwidth]{sascha_input/plots/Higgs/ROC/Beta1/ROC_ALL_h_recoJet_D2_bin5.pdf} \hspace{6mm}
+\includegraphics[width=0.3\textwidth]{sascha_input/plots/Higgs/ROC/Beta1/ROC_ALL_h_recoJet_nSub21_bin5.pdf}
+\caption{\footnotesize{ROCs showing QCD rejection against Higgs boson efficiency for tracks, TAS and colorimeter. C2 (left), D2 (middle) and $\tau_{21}$ (right) at $\beta=1$. Shown is the energy range between 500-800 GeV (top) and 1600-2000 GeV (bottom). The numbers in the legend second $p_{\mathrm{T}}$ bin (left) and highest bin (right). The numbers in the legend indicate the achieved background rejection at 50\% signal efficiency.}}\label{fig:ROC_higgs_nSub21}
+\end{figure}
+
+\subsubsection{Performance for Top quark tagging}
+The top quark features a characteristic three body decay and a very high mass around $173 \, \text{GeV}$. Studied here is the n-Subjettiness ratio $\tau_{32}$ to distinguish the three prong like top quark jets and QCD background jets.
+
+The ROCs in Figure \ref{fig:ROC_top} show the accompanying improvements in the separation power of $\tau_{32}$ possible with TAS. Tagging tops quark events with $\tau_{32}$ is found to greatly benefit from the excellent angular resolution of tracks. This is especially the case for high $p_{\mathrm{T}}$ where the limitation of the calorimeter cell size clearly diminishes the possible identification of three distinct substructures inside a large-R jet. The enhancements are not as articulated for the low $p_{\mathrm{T}}$ regions, nevertheless TAS $\tau_{32}$ performs here at least equally well as calorimeter $\tau_{32}$. Furthermore, tracks are observed to perform slightly worse in comparison with TAS for the lower $p_{\mathrm{T}}$ regions, but match the TAS performance for very large boosts as expected.
+\begin{figure}[htp]
+\includegraphics[width=0.5\textwidth]{sascha_input/plots/Top/beta1/ROC_ALL_h_recoJet_nSub32_bin2.pdf} \hspace{1mm}
+\includegraphics[width=0.5\textwidth]{sascha_input/plots/Top/beta1/ROC_ALL_h_recoJet_nSub32_bin3.pdf}
+\bigskip
+\includegraphics[width=0.5\textwidth]{sascha_input/plots/Top/beta1/ROC_ALL_h_recoJet_nSub32_bin5.pdf} \hspace{1mm}
+\includegraphics[width=0.5\textwidth]{sascha_input/plots/Top/beta1/ROC_ALL_h_recoJet_nSub32_bin6.pdf}
+\caption{\footnotesize{ROCs showing QCD rejection against top quark efficiency for tracks, TAS and colorimeter $\tau_{32}$ at $\beta=1$, $p_{\mathrm{T}}$ ordering from upper left to lower right.}}\label{fig:ROC_top}
+\end{figure}
 
 
 

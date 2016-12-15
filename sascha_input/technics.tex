@@ -2,6 +2,7 @@
 \subsection{Sub-jet track assistance}\label{subsec:ta_adapt}
 Tracks and their angular resolution could not only improve the jet mass definition but also the performance of tagging variables such as the Energy Correlation Functions or n-Subjettiness. These variables are usually calculated with calorimeter clusters as input, studied here are tracks and assisted tracks as input in comparison with the default method using clusters. 
 In contrast to the $\mta$ variable introduced in Section \ref{subsec:mta}, not the mass but the $p_{\mathrm{T}}$ of each track is scaled, since C2, D2, $\tau_{21}$ and $\tau_{32}$ are calculated with the constituents $p_{\mathrm{T}}$.
+
 The concept of track assisting with the $p_{\mathrm{T}}$ ratio of the whole jet is without effect for the studied substructure variables. This can be understood from the definitions of the weighted $p_{\mathrm{T}}$ sums. If corrected with only one ratio, all tracks are scaled by the same factor $c$, which then can be put in front of the sum and cancels as soon as the ratios $\tau_{21}$ and $\tau_{32}$, respectively C2 and D2 are formed.
 \begin{equation}
 \begin{aligned}
@@ -52,6 +53,4 @@ $> 2000$ & \multicolumn{1}{l|}{80 - 126}                       & 4.2            
 \caption{\footnotesize{Studied $p_{\mathrm{T}}$ regions and corresponding calculated 68\% mass intervals along with the background rejections from the mass cut for $W$ boson, Higgs boson and Top quark jets.}} \label{table:mass_cut}
 \end{table} 
 
-
-%The stated signal efficiencies are calculated after the mass cut plus tagging with n-Subjettiness or C2/D2. Therefore, the endpoint of the ROCs is at 68\% signal efficiency, the fraction kept after the mass cut and before cutting on a tagging variable. Consequently, it is required to achieve a tagging only signal efficiency of $\frac{0.5}{0.68} \sim 0.74$ for a signal efficiency of 0.5 after mass cut and tagging. Similarly, the stated and compared background rejections result from the multiplication of the rejection provided by the mass cut and the rejection achieved by the considered tagging variable, thus representing the separation by the combination of both. 
 

@@ -1,69 +1,80 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {UKenglish}
-\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
 \contentsline {section}{\numberline {2}ATLAS detector}{4}{section.2}
-\contentsline {section}{\numberline {3}Monte Carlo Samples}{5}{section.3}
-\contentsline {section}{\numberline {4}Object Definition}{5}{section.4}
-\contentsline {subsection}{\numberline {4.1}Large-radius jet mass definitions}{5}{subsection.4.1}
+\contentsline {section}{\numberline {3}Monte Carlo Samples}{4}{section.3}
+\contentsline {section}{\numberline {4}Object Definition}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Large-radius jet mass definitions}{6}{subsection.4.1}
 \contentsline {subsubsection}{\numberline {4.1.1}Substructure: Grooming Techniques}{6}{subsubsection.4.1.1}
 \contentsline {subsubsection}{\numberline {4.1.2}Trimming}{6}{subsubsection.4.1.2}
 \contentsline {subsubsection}{\numberline {4.1.3}Calorimeter Mass}{7}{subsubsection.4.1.3}
 \contentsline {subsubsection}{\numberline {4.1.4}Track Mass}{7}{subsubsection.4.1.4}
-\contentsline {subsubsection}{\numberline {4.1.5}Performance Figure of Merit (FoM)}{8}{subsubsection.4.1.5}
+\contentsline {subsubsection}{\numberline {4.1.5}Performance Figure of Merit (FoM)}{9}{subsubsection.4.1.5}
 \contentsline {subsubsection}{\numberline {4.1.6}Gaussian Fit}{9}{subsubsection.4.1.6}
 \contentsline {subsubsection}{\numberline {4.1.7}InterQuantile-Range}{10}{subsubsection.4.1.7}
-\contentsline {subsection}{\numberline {4.2}Energy Correlation Functions}{10}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Energy Correlation Functions}{11}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}n-Subjettiness}{12}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Receiver Operator Characteristics}{13}{subsection.4.4}
 \contentsline {section}{\numberline {5}Track-assisted subjet mass}{13}{section.5}
-\contentsline {subsection}{\numberline {5.1}Track-Assisted Mass ($m^{TA}$)}{13}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Advantages and Limitation of $m^{TA}$}{14}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.1}Track-Assisted Mass ($m^{TA}$)}{14}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Advantages and Limitation of $m^{TA}$}{15}{subsection.5.2}
 \contentsline {subsubsection}{\numberline {5.2.1}Performance in $W \to q'\bar {q}$ Decays}{15}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Performance in $t\to q'\bar {q}b$ Decays}{15}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2}Performance in $t\to q'\bar {q}b$ Decays}{16}{subsubsection.5.2.2}
 \contentsline {subsubsection}{\numberline {5.2.3}Performance in $h\to b\bar {b}$ Decays}{16}{subsubsection.5.2.3}
-\contentsline {subsection}{\numberline {5.3}The Track-Assisted Sub-jet Mass ($m^{TAS}$)}{16}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.3}The Track-Assisted Sub-jet Mass ($m^{TAS}$)}{17}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Observable Definition: Inputs}{18}{subsection.5.4}
 \contentsline {subsubsection}{\numberline {5.4.1}Tracks}{18}{subsubsection.5.4.1}
 \contentsline {subsubsection}{\numberline {5.4.2}Sub-jets}{18}{subsubsection.5.4.2}
-\contentsline {subsection}{\numberline {5.5}Observable Definition: Procedure}{18}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.5}Observable Definition: Procedure}{19}{subsection.5.5}
 \contentsline {subsection}{\numberline {5.6}Performance in $W \to q'\bar {q}$ Decays}{20}{subsection.5.6}
 \contentsline {subsection}{\numberline {5.7}Performance in $t\to q'\bar {q}b$ Decays}{20}{subsection.5.7}
 \contentsline {subsection}{\numberline {5.8}Performance in $h\to b\bar {b}$ Decays}{20}{subsection.5.8}
 \contentsline {subsection}{\numberline {5.9}Performance in QCD Multijet Events}{21}{subsection.5.9}
-\contentsline {subsection}{\numberline {5.10}Performance in Massive $\mathaccentV {tilde}07E{W}\to q'\bar {q}$ Decays with $m_{\mathaccentV {tilde}07E{W}}=m_t$}{22}{subsection.5.10}
-\contentsline {subsection}{\numberline {5.11}Other Stability Quantifiers}{22}{subsection.5.11}
+\contentsline {subsection}{\numberline {5.10}Performance in Massive $\mathaccentV {tilde}07E{W}\to q'\bar {q}$ Decays with $m_{\mathaccentV {tilde}07E{W}}=m_t$}{23}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}Other Stability Quantifiers}{23}{subsection.5.11}
 \contentsline {subsection}{\numberline {5.12}Sub-jet Calibration}{24}{subsection.5.12}
 \contentsline {subsection}{\numberline {5.13}Preliminary Studies on Sub-jet Calibration}{24}{subsection.5.13}
-\contentsline {subsubsection}{\numberline {5.13.1}Perfect Calibration}{24}{subsubsection.5.13.1}
-\contentsline {subsubsection}{\numberline {5.13.2}Simple Sub-jet Calibration}{24}{subsubsection.5.13.2}
-\contentsline {subsection}{\numberline {5.14}Limitation of $m^{TAS}$}{25}{subsection.5.14}
-\contentsline {subsection}{\numberline {5.15}Alternative Observable Definitions}{27}{subsection.5.15}
-\contentsline {section}{\numberline {6}Combining the mass observables}{28}{section.6}
+\contentsline {subsubsection}{\numberline {5.13.1}Perfect Calibration}{25}{subsubsection.5.13.1}
+\contentsline {subsubsection}{\numberline {5.13.2}Simple Sub-jet Calibration}{25}{subsubsection.5.13.2}
+\contentsline {subsection}{\numberline {5.14}Limitation of $m^{TAS}$}{26}{subsection.5.14}
+\contentsline {subsection}{\numberline {5.15}Alternative Observable Definitions}{28}{subsection.5.15}
+\contentsline {section}{\numberline {6}Combining the mass observables}{29}{section.6}
 \contentsline {subsection}{\numberline {6.1}Combination $m^{TA}-m^{calo}$}{29}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Combination $m^{TAS}-m^{calo}$}{29}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.2}Combination $m^{TAS}-m^{calo}$}{30}{subsection.6.2}
 \contentsline {subsubsection}{\numberline {6.2.1}Procedure}{30}{subsubsection.6.2.1}
-\contentsline {subsection}{\numberline {6.3}Performance in $W \to q'\bar {q}$ Decays}{30}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.3}Performance in $W \to q'\bar {q}$ Decays}{31}{subsection.6.3}
 \contentsline {subsection}{\numberline {6.4}Performance in $t\to q'\bar {q}b$ Decays}{31}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Performance in $h\to b\bar {b}$ Decays}{31}{subsection.6.5}
-\contentsline {section}{\numberline {7}Energy Correlation Functions and n-Subjettiness}{31}{section.7}
-\contentsline {subsection}{\numberline {7.1}Sub-jet track assistance}{31}{subsection.7.1}
+\contentsline {subsection}{\numberline {6.5}Performance in $h\to b\bar {b}$ Decays}{32}{subsection.6.5}
+\contentsline {section}{\numberline {7}Energy Correlation Functions and n-Subjettiness}{32}{section.7}
+\contentsline {subsection}{\numberline {7.1}Sub-jet track assistance}{32}{subsection.7.1}
 \contentsline {subsubsection}{\numberline {7.1.1}Event weighting and Mass-Cut}{33}{subsubsection.7.1.1}
-\contentsline {subsection}{\numberline {7.2}Track Selection}{34}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Performance with default $\beta $}{35}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.2}Track Selection}{35}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Performance with default $\beta $}{36}{subsection.7.3}
 \contentsline {subsubsection}{\numberline {7.3.1}Performance for $W$ boson tagging}{36}{subsubsection.7.3.1}
 \contentsline {subsubsection}{\numberline {7.3.2}Un-assisted tracks and TAS at very high $p_{\mathrm {T}}$}{36}{subsubsection.7.3.2}
 \contentsline {subsubsection}{\numberline {7.3.3}Correlation with $p_{\mathrm {T}}$}{38}{subsubsection.7.3.3}
-\contentsline {subsection}{\numberline {7.4}Optimisation of $\beta $}{38}{subsection.7.4}
-\contentsline {section}{\numberline {8}Conclusions \& Outlook}{38}{section.8}
-\contentsline {subsection}{\numberline {8.1}Jet mass observables}{38}{subsection.8.1}
-\contentsline {subsubsection}{\numberline {8.1.1}Outlook}{40}{subsubsection.8.1.1}
-\contentsline {subsection}{\numberline {8.2}Energy Correlation Functions and n-Subjettiness}{40}{subsection.8.2}
-\contentsline {part}{Appendix}{41}{part*.42}
-\contentsline {section}{\numberline {A}$m^{TAS}$ distributions, boosted $W/Z$}{50}{appendix.A}
-\contentsline {section}{\numberline {B}$m^{TAS}$ distributions, boosted tops}{62}{appendix.B}
-\contentsline {section}{\numberline {C}$m^{TAS}$ distributions, boosted higgs}{73}{appendix.C}
-\contentsline {section}{\numberline {D}$m^{comb}_{TAS}$ response distributions, boosted $W/Z$}{84}{appendix.D}
-\contentsline {section}{\numberline {E}$m^{comb}_{TAS}$ response distributions, boosted tops}{87}{appendix.E}
-\contentsline {section}{\numberline {F}$m^{comb}_{TAS}$ response distributions, Higgs}{90}{appendix.F}
-\contentsline {part}{Auxiliary material}{97}{part*.280}
+\contentsline {subsubsection}{\numberline {7.3.4}Performance for Higgs boson tagging}{39}{subsubsection.7.3.4}
+\contentsline {subsubsection}{\numberline {7.3.5}Performance for Top quark tagging}{41}{subsubsection.7.3.5}
+\contentsline {subsection}{\numberline {7.4}Optimisation of $\beta $}{41}{subsection.7.4}
+\contentsline {subsubsection}{\numberline {7.4.1}Optimisation for $W$ boson jets}{42}{subsubsection.7.4.1}
+\contentsline {subsubsection}{\numberline {7.4.2}Optimisation for Higgs boson jets}{45}{subsubsection.7.4.2}
+\contentsline {subsubsection}{\numberline {7.4.3}Optimisation for Top quark jets}{47}{subsubsection.7.4.3}
+\contentsline {section}{\numberline {8}Conclusions \& Outlook}{50}{section.8}
+\contentsline {subsection}{\numberline {8.1}Jet mass observables}{50}{subsection.8.1}
+\contentsline {subsubsection}{\numberline {8.1.1}Outlook}{50}{subsubsection.8.1.1}
+\contentsline {subsection}{\numberline {8.2}Energy Correlation Functions and n-Subjettiness}{51}{subsection.8.2}
+\contentsline {part}{Appendix}{52}{part*.53}
+\contentsline {section}{\numberline {A}$m^{TAS}$ distributions, boosted $W/Z$}{61}{appendix.A}
+\contentsline {section}{\numberline {B}$m^{TAS}$ distributions, boosted tops}{73}{appendix.B}
+\contentsline {section}{\numberline {C}$m^{TAS}$ distributions, boosted higgs}{84}{appendix.C}
+\contentsline {section}{\numberline {D}$m^{comb}_{TAS}$ response distributions, boosted $W/Z$}{95}{appendix.D}
+\contentsline {section}{\numberline {E}$m^{comb}_{TAS}$ response distributions, boosted tops}{98}{appendix.E}
+\contentsline {section}{\numberline {F}$m^{comb}_{TAS}$ response distributions, Higgs}{101}{appendix.F}
+\contentsline {section}{\numberline {G}$W$ boson Tagging}{104}{appendix.G}
+\contentsline {section}{\numberline {H}Higgs Boson Tagging}{104}{appendix.H}
+\contentsline {section}{\numberline {I}Top Quark Tagging}{104}{appendix.I}
+\contentsline {section}{\numberline {J}$W$ Distributions}{142}{appendix.J}
+\contentsline {section}{\numberline {K}Higgs Distributions}{142}{appendix.K}
+\contentsline {section}{\numberline {L}Top Distributions}{142}{appendix.L}
+\contentsline {part}{Auxiliary material}{146}{part*.342}
