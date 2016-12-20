@@ -83,6 +83,7 @@
 
 % Add you own definitions here (file mydocument-defs.sty).
 \usepackage{mydocument-defs}
+\usepackage{rotating}
 
 %-------------------------------------------------------------------------------
 % Generic document information
@@ -245,11 +246,16 @@ This section gives an overview of the objects used for the subjet-assisted varia
 \input{fab1.tex}
 
 
-\subsection{Energy Correlation Functions}
+\subsection{Energy Correlation Functions}\label{subsec:ECF}
 \input{sascha_input/ECF}
 
-\subsection{n-Subjettiness}
+\subsection{n-Subjettiness}\label{subsec:nSub}
 \input{sascha_input/nSub}
+
+\subsection{Receiver Operator Characteristics}\label{sec:ROC}
+The separation power of discrimination variables can be studied quite intuitively by comparing the signal and background distributions of a certain variable. Another used figure of merit for the performance, especially for comparisons of different variables, is to use \textsc{Receiver Operator Characteristics} (ROCs) which show the achieved background rejection for different values of signal efficiency (signal fraction left after performing a cut). 
+Each point is calculated from the underlying signal and background distributions by integrating the background distribution from zero \footnote[1]{If the signal distribution lies at lower values as the background.} to the point where the desired signal fraction is achieved. The fraction of background events contained in this region are kept when cutting at this signal efficiency, hence the inverse of this fraction, $\frac{1}{\epsilon_{background}}$ is an estimate for the background rejection. The lower the fraction of background events in the region, the better is the achieved exclusion. Accordingly, a good discrimination variable is represented by a ROC with preferably high values of background rejection up to high signal efficiencies.
+
 
 
 %-------------------------------------------------------------------------------
@@ -261,7 +267,18 @@ The track-assisted subjet mass takes inspiration from the simpler development wh
 \input{fab2.tex}
 
 %-------------------------------------------------------------------------------
-\section{Energy Correlation Functions and n-Subjettiness}
+\section{Energy Correlation Functions and n-Subjettiness}\label{subsec:ta_adapt}
+\input{sascha_input/technics}
+
+\subsection{Track Selection}
+\input{sascha_input/TrackSelection}
+
+\subsection{Performance with default $\beta$}
+\input{sascha_input/results_beta1}
+
+\subsection{Optimisation of $\beta$}
+\input{sascha_input/beta_opt}
+
 \label{sec:ECFnS}
 %----------------------------------
 
@@ -314,6 +331,7 @@ In the more complex scenario, the uncertainties could be derived for the sub-jet
 % Such an appendix should be printed before the Bibliography.
 
 \input{appendixfab.tex}
+\input{sascha_input/appendixsascha.tex}
 
 %-------------------------------------------------------------------------------
 % If you use biblatex and either biber or bibtex to process the bibliography
@@ -340,7 +358,7 @@ LHC}. In: JHEP 07 (2011), p. 046. doi: 10.1007/JHEP07(2011)046. arXiv: 1011.
 5918 [hep-ph].
 
 \bibitem{diboson}
-Georges Aad {\it et al.}
+Georges Aad \emph{et al.}
 \emph{Combination of searches for WW, WZ, and ZZ resonances
 in pp collisions at $\sqrt{s}$ = 8 TeV with the ATLAS detector}. In: Phys. Lett. B755
 (2016), pp. 285–305. doi: 10.1016/j.physletb.2016.02.015. arXiv: 1512.05099
@@ -405,7 +423,7 @@ The ATLAS Collaboration,
 Eur. Phys. J. C (2013) 73: 2518. doi:10.1140/epjc/s10052-013-2518-3.
 
 \bibitem{tasso}
-W. Bartel {\it et al.} [JADE Collaboration],
+W. Bartel \emph{et al.} [JADE Collaboration],
 \emph{Observation of Planar Three Jet Events in e + e -
 Annihilation and Evidence for Gluon Bremsstrahlung},
 Phys. Lett. B 91, 142 (1980).
@@ -432,7 +450,7 @@ hep-ph/0611247,
 CERN-LCGAPP-2006-06.
 
 \bibitem{topocluster}
-W.~Lampl {\it et al.},
+W.~Lampl \emph{et al.},
 \emph{Calorimeter Clustering Algorithms: Description and Performance},
 ATL-LARG-PUB-2008-002.
 
@@ -443,7 +461,7 @@ CERN-PH-EP-2012-191
 arXiv:1210.6210v1  [hep-ex].
 
 \bibitem{geant4}
-GEANT4 Collaboration (S. Agostinelli {\it et al.}), 
+GEANT4 Collaboration (S. Agostinelli \emph{et al.}), 
 \emph{GEANT4: A Simulation toolkit},
 Nucl.Instrum.Meth. A506 (2003) 250-303
 DOI: 10.1016/S0168-9002(03)01368-8
@@ -523,6 +541,36 @@ E. Lehmann and G. Casella,
 \emph{Theory of Point Estimation},
 Springer Verlag, 1998,
 isbn: 0387985026.
+
+
+\bibitem{bib:power_counting}
+Andrew~J. Larkoski, Ian Moult, and Duff Neill.
+\emph {Power Counting to Better Jet Observables}.
+\newblock {\em JHEP}, 12:009, 2014.
+
+\bibitem{bib:analytic_ECF}
+Andrew~J. Larkoski, Ian Moult, and Duff Neill.
+\emph {Analytic Boosted Boson Discrimination}.
+\newblock {\em JHEP}, 05:117, 2016.
+
+\bibitem{bib:ECF}
+Andrew~J. Larkoski, Gavin~P. Salam, and Jesse Thaler.
+\emph {Energy Correlation Functions for Jet Substructure}.
+\newblock {\em JHEP}, 06:108, 2013.
+
+\bibitem{bib:nsub}
+Jesse Thaler and Ken Van~Tilburg.
+\emph {Identifying Boosted Objects with N-subjettiness}.
+\newblock {\em JHEP}, 03:015, 2011.
+
+
+\bibitem{bib:w_tagging}
+Georges Aad et~al.
+\emph {Identification of boosted, hadronically decaying W bosons and
+  comparisons with ATLAS data taken at $\sqrt{s} = 8$ TeV}.
+\newblock {\em Eur. Phys. J.}, C76(3):154, 2016.
+
+
 
 \end{thebibliography}
 \printbibliography
