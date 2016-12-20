@@ -1,5 +1,3 @@
-
-\subsection{Sub-jet track assistance}\label{subsec:ta_adapt}
 Tracks and their angular resolution could not only improve the jet mass definition but also the performance of tagging variables such as the Energy Correlation Functions or n-Subjettiness. These variables are usually calculated with calorimeter clusters as input, studied here are tracks and assisted tracks as input in comparison with the default method using clusters. 
 In contrast to the $\mta$ variable introduced in Section \ref{subsec:mta}, not the mass but the $p_{\mathrm{T}}$ of each track is scaled, since C2, D2, $\tau_{21}$ and $\tau_{32}$ are calculated with the constituents $p_{\mathrm{T}}$.
 
@@ -26,7 +24,7 @@ This leads to the following adaption of the TAS procedure:
 Where the sum combines the $p_{\mathrm{T}}$ of all tracks that are associated to a given sub-jet. 
 
 
-\subsubsection{Event weighting and Mass-Cut}
+\subsection{Event weighting and Mass-Cut}
 The substructure variables are compared via their QCD (multi-jet) rejection performance. While the $p_{\mathrm{T}}$ distribution of the multi-jet sample falls exponentially, the $p_{\mathrm{T}}$ of the signal samples features characteristic peaks related to the different resonance masses, see Figure \ref{fig:p_T}. To avoid bias in the comparison, the signal sample is given weights sucht that the truth $p_{\mathrm{T}}$ distribution of the leading jet matches the one of the background sample. Furthermore, the spectrum is split into six different $p_{\mathrm{T}}$ regions to study the behavior with rising energy. 
 \begin{figure} 
 	\includegraphics[width=0.5\textwidth]{sascha_input/plots/track_selection/h_leadpt_truth.pdf} \hspace{1mm}
